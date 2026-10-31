@@ -3,8 +3,10 @@ This is a mobile version for weather forecasting. It displays either today's wea
 
 # Installation
 
-This mobile app uses expo thus require expo tools. Install needed package via npm install or npx tunneling. 
+This mobile app uses expo thus require expo tools. Install needed package via npm install. 
 Use npm start or expo start to start the mobile app and scan the qr code.
+If needed use npx expo start --tunnel  to start the applicaton.
+Ensure it is sdk 57
 
 # Challenges
 
