@@ -10,6 +10,7 @@ import { Tabs } from "expo-router";
 import Ionicons from "@expo/vector-icons/Ionicons";
 
 
+
 export default function TabsLayout() {
   return (
     <Tabs>
@@ -20,7 +21,7 @@ export default function TabsLayout() {
           // tabBarIcon receives { focused, color, size } from the tab bar.
           tabBarIcon: ({ focused, color, size }) => (
             <Ionicons
-              name={focused ? "restaurant" : "restaurant-outline"}
+              name={focused ? "sunny" : "sunny-outline"}
               size={size}
               color={color}
             />
@@ -33,7 +34,7 @@ export default function TabsLayout() {
           title: "Settings",
           tabBarIcon: ({ focused, color, size }) => (
             <Ionicons
-              name={focused ? "phone-portrait" : "phone-portrait-outline"}
+              name={focused ? "settings" : "settings-outline"}
               size={size}
               color={color}
             />
@@ -41,12 +42,12 @@ export default function TabsLayout() {
         }}
       />
       <Tabs.Screen
-        name="hooks"
+        name="future"
         options={{
-          title: "Hooks",
+          title: "Future",
           tabBarIcon: ({ focused, color, size }) => (
             <Ionicons
-              name={focused ? "pulse" : "pulse-outline"}
+              name={focused ? "calendar-clear-sharp" : "calendar-clear-outline"}
               size={size}
               color={color}
             />

@@ -1,13 +1,13 @@
 import { ScrollView, StyleSheet } from "react-native";
-import WeatherToday from "../../components/WeatherToday";
+import WeatherFuture from "../../components/WeatherFuture";
 
-export default function HooksScreen() {
+export default function FutureScreen() {
   return (
     <ScrollView
       contentContainerStyle={styles.content}
       contentInsetAdjustmentBehavior="automatic"
     >
-      <WeatherToday />
+      <WeatherFuture />
     </ScrollView>
   );
 }

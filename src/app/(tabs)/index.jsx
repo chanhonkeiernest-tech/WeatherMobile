@@ -4,9 +4,9 @@
 // "index" is special: it is the screen shown at the folder's root URL ("/").
 
 import { ScrollView, StyleSheet } from "react-native";
-import WeatherFuture from "../../components/WeatherFuture";
+import WeatherToday from "../../components/WeatherToday";
 
-export default function MenuScreen() {
+export default function TodayScreen() {
 
 
   return (
@@ -14,7 +14,7 @@ export default function MenuScreen() {
       contentContainerStyle={styles.content}
       contentInsetAdjustmentBehavior="automatic"
     >
-      <WeatherFuture />
+      <WeatherToday />
     </ScrollView>
   );
 }
